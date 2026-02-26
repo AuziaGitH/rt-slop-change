@@ -10,7 +10,7 @@
 
 	scale = generator("num", 0.4, 0.7)
 
-	lifespan = generator("num", 20, 50)
+	lifespan = 50
 
 	maxSpawning = 3
 	minSpawning = 1
