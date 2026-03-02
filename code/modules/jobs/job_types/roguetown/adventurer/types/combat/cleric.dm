@@ -683,7 +683,6 @@
 		TRAIT_EMPATH,
 		TRAIT_CRITICAL_RESISTANCE,
 		TRAIT_STEELHEARTED,
-		TRAIT_DODGEEXPERT,
 		TRAIT_RITUALIST
 	)
 	subclass_stats = list(
@@ -698,7 +697,7 @@
 		/datum/skill/craft/sewing = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/misc/reading = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/combat/unarmed = SKILL_LEVEL_NOVICE,
-		/datum/skill/misc/medicine = SKILL_LEVEL_EXPERT,
+		/datum/skill/misc/medicine = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/craft/cooking = SKILL_LEVEL_APPRENTICE,
 		/datum/skill/labor/fishing = SKILL_LEVEL_APPRENTICE,
 		/datum/skill/misc/swimming = SKILL_LEVEL_APPRENTICE,
