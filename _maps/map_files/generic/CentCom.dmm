@@ -1078,6 +1078,16 @@
 	},
 /turf/open/floor/rogue/blocks/flipped,
 /area/rogue/under/cave/inhumen/wretch/camp)
+"eM" = (
+/obj/structure/flora/roguegrass/water/reeds,
+/turf/open/water/river{
+	dir = 1;
+	icon_state = "rockwd";
+	name = "muddy river";
+	water_color = "#705a43";
+	water_reagent = /datum/reagent/water/gross
+	},
+/area/rogue)
 "eN" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -5613,13 +5623,7 @@
 /area/rogue/under/cave/inhumen/wretch/camp)
 "GL" = (
 /obj/effect/decal/remains/saiga,
-/turf/open/water/river{
-	dir = 1;
-	icon_state = "rockwd";
-	name = "muddy river";
-	water_color = "#705a43";
-	water_reagent = /datum/reagent/water/gross
-	},
+/turf/open/water/swamp,
 /area/rogue/outdoors/cave/inhumen/wretch/ghrotto)
 "GT" = (
 /obj/machinery/light/rogue/firebowl/stump,
@@ -24881,7 +24885,7 @@ bX
 bX
 bX
 bX
-bX
+eM
 Nc
 YG
 YG
@@ -25141,13 +25145,13 @@ bX
 bX
 bX
 bX
-Nc
-YG
-YG
-YG
+Zp
+ws
+ws
+ws
 GL
-YG
-oX
+ws
+YE
 Zp
 ws
 ej
