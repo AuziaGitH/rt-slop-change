@@ -2063,3 +2063,11 @@
 	icon_state = "duelistcape"
 	item_state = "duelistcape"
 	color = null
+
+/obj/item/clothing/cloak/half/citywatch
+	name = "citywatch cape"
+	desc = "A handsome cloak, denoting a certain cosmipolitan authority"
+	icon = 'icons/roguetown/clothing/licensed-infraredbaron/cloaks.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/licensed-infraredbaron/onmob/cloaks.dmi'
+	icon_state = "citywatch_cape"
+	item_state = "citywatch_cape"
