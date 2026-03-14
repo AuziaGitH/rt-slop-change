@@ -104,7 +104,7 @@
 	heat_protection = GROIN | LEG_RIGHT | LEG_LEFT
 	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
 
-/obj/item/clothing/under/roguetown/trou/leather/pontifex/raneshen
+/obj/item/clothing/under/roguetown/trou/leather/pontifex/zyb
 	name = "baggy desert pants"
 	desc = "A handmade pair of baggy, thin leather pants. Keeps sand out of your boots, sun off your legs, and a creacher's fangs from piercing your ankles."
 	naledicolor = FALSE
