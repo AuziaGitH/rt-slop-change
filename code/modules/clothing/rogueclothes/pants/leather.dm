@@ -111,7 +111,7 @@
 	cold_protection = null
 	min_cold_protection_temperature = BODYTEMP_NORMAL_MIN
 	heat_protection = GROIN | LEG_RIGHT | LEG_LEFT
-	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
+	max_heat_protection_temperature = 600
 
 /obj/item/clothing/under/roguetown/trou/leather/eastern
 	icon_state = "eastpants1"

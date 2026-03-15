@@ -107,7 +107,7 @@
 	cold_protection = HEAD
 	min_cold_protection_temperature = 50
 	heat_protection = null
-	max_heat_protection_temperature = 350
+	max_heat_protection_temperature = BODYTEMP_NORMAL_MAX
 
 /obj/item/clothing/head/roguetown/fisherhat
 	name = "straw hat"
