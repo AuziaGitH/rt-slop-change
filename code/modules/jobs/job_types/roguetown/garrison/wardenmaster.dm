@@ -11,7 +11,7 @@
 	tutorial = "You are the most experienced of the Wardens, the elite rangers that patrol, scout and fiercely defend the lower city and wilderness surrounding it, attending to threats and crimes below the city's attention. \
 				Your job is to lead the aloof Wardens and wrangle the unruly vanguard, carving order out of the chaos south of the city's wals.\
 				Obey the orders of your Marshal and the Crown, and enact their will beyond the wall as the first line of defence from threats beyond the borders of civilisation. \
-				Keep the roads safe, and hold the vanguard fortress. The Crown is counting on you.",
+				Keep the roads safe, and hold the vanguard fortress. The Crown is counting on you."
 	display_order = JDO_BOGMASTER
 	whitelist_req = TRUE
 	round_contrib_points = 3
