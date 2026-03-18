@@ -671,7 +671,7 @@ GLOBAL_VAR_INIT(rpg_loot_items, FALSE)
 		var/output = "[inspec.Join()]"
 		if(!usr.client.prefs.no_examine_blocks)
 			output = examine_block(output)
-		to_chat(usr, output)	
+		to_chat(usr, output)
 
 /obj/item
 	var/simpleton_price = FALSE
@@ -1500,7 +1500,8 @@ GLOBAL_VAR_INIT(rpg_loot_items, FALSE)
 		return
 	altgripped = TRUE
 	update_transform()
-	to_chat(user, span_notice("I wield [src] with an alternate grip"))
+	to_chat(user, span_notice("I wield [src] with an alternate grip."))
+	playsound(loc, pick('sound/combat/weaponr1.ogg','sound/combat/weaponr2.ogg'), 100, TRUE)
 	if(user.get_active_held_item() == src)
 		if(alt_intents)
 			user.update_a_intents()
