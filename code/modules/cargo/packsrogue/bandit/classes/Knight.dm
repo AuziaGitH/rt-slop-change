@@ -288,21 +288,6 @@
 	cost = 20
 	contains = list(/obj/item/rogueweapon/mace/warhammer/steel)
 
-/datum/supply_pack/rogue/Knight/silverlsword
-	name = "Silver Long Sword"
-	cost = 60
-	contains = list(/obj/item/rogueweapon/sword/long/silver)
-
-/datum/supply_pack/rogue/Knight/silverpoleaxe
-	name = "Silver Poleaxe"
-	cost = 60
-	contains = list(/obj/item/rogueweapon/greataxe/silver)
-
-/datum/supply_pack/rogue/Knight/silverwaraxe
-	name = "Silver War Axe"
-	cost = 60
-	contains = list(/obj/item/rogueweapon/stoneaxe/woodcut/silver)
-
 /datum/supply_pack/rogue/Knight/silvermace
 	name = "Silver Mace"
 	cost = 60
@@ -312,6 +297,21 @@
 	name = "Silver Warhammer"
 	cost = 60
 	contains = list(/obj/item/rogueweapon/mace/warhammer/steel/silver)
+
+/datum/supply_pack/rogue/Knight/silverlsword
+	name = "Silver Long Sword"
+	cost = 60
+	contains = list(/obj/item/rogueweapon/sword/long/silver)
+
+/datum/supply_pack/rogue/Knight/silverwaraxe
+	name = "Silver War Axe"
+	cost = 60
+	contains = list(/obj/item/rogueweapon/stoneaxe/woodcut/silver)
+
+/datum/supply_pack/rogue/Knight/silverpoleaxe
+	name = "Silver Poleaxe"
+	cost = 60
+	contains = list(/obj/item/rogueweapon/greataxe/silver)
 
 
 /////////////
