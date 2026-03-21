@@ -99,7 +99,7 @@
 	verbage_simple = "construct"
 	verbage = "constructs"
 	skillcraft = /datum/skill/craft/carpentry
-	craftdiff = 1
+	craftdiff = 0
 
 /datum/crafting_recipe/roguetown/structure/chains
 	name = "chains"
