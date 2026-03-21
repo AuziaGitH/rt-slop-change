@@ -133,6 +133,12 @@
 		return
 	. += "Right-click to step up to \the [src]."
 
+/obj/structure/bondage/gloryhole/buckle_mob(mob/living/M, force = FALSE, check_loc = TRUE)
+	var/adir = get_dir(loc, M)
+	if(dir == adir) // if standing at the front of the gloryhole, prevent buckling
+		return FALSE
+	return ..()
+
 /obj/structure/bondage/gloryhole/post_buckle_mob(mob/living/M)
 	. = ..()
 	M.set_mob_offsets("bed_buckle", _x = buckle_offset_x, _y = buckle_offset_y)
