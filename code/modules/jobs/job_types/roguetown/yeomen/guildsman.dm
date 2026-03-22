@@ -194,7 +194,7 @@
 		/datum/skill/misc/climbing = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/craft/traps = SKILL_LEVEL_APPRENTICE,
 		/datum/skill/misc/reading = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/craft/ceramics = SKILL_LEVEL_APPRENTICE,
+		/datum/skill/craft/ceramics = SKILL_LEVEL_EXPERT,
 	)
 
 /datum/outfit/job/roguetown/guildsman/architect/pre_equip(mob/living/carbon/human/H)
