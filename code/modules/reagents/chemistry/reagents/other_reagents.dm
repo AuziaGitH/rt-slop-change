@@ -59,8 +59,8 @@
 /datum/reagent/blood/on_mob_life(mob/living/carbon/H)//I hate you
 	..()
 	if(HAS_TRAIT(H, TRAIT_HEMOPHAGE))
-		H.adjust_nutrition(2)
-		H.adjust_hydration(2)
+		H.adjust_nutrition(1)
+		H.adjust_hydration(1)
 		if(H.blood_volume < BLOOD_VOLUME_NORMAL)
 			H.blood_volume = min(H.blood_volume+4, BLOOD_VOLUME_NORMAL)//Less effective than just water.
 		return
@@ -74,8 +74,8 @@
 /datum/reagent/blood/shitty/on_mob_life(mob/living/carbon/H)
 	..()
 	if(HAS_TRAIT(H, TRAIT_HEMOPHAGE))
-		H.adjust_nutrition(0.3)
-		H.adjust_hydration(0.3)
+		H.adjust_nutrition(0.1)
+		H.adjust_hydration(0.1)
 		if(H.blood_volume < BLOOD_VOLUME_NORMAL)
 			H.blood_volume = min(H.blood_volume+2, BLOOD_VOLUME_NORMAL)//Much less effective than just water.
 		if(prob(5))
@@ -134,7 +134,8 @@
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		if(HAS_TRAIT(H, TRAIT_HEMOPHAGE))
-			M.add_nausea(2)
+			M.add_nausea(20)
+			M.reagents.add_reagent(/datum/reagent/toxin, 2)
 		else
 			H.adjust_hydration(hydration)
 			if(M.blood_volume < BLOOD_VOLUME_NORMAL)

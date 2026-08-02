@@ -263,6 +263,8 @@ All foods are distributed among various categories. Use common sense.
 		if(HAS_TRAIT(human_eater, TRAIT_HEMOPHAGE))
 			to_chat(eater, span_red("I can't lyve off of this..."))
 			human_eater.add_nausea(50)//Take a guess.
+			human_eater.reagents.add_reagent(/datum/reagent/toxin, 12)//should be toxic
+			
 			return//Seriously. We don't care. Drink some blood, instead.
 		if(human_eater.culinary_preferences)
 			var/favorite_food_type = human_eater.culinary_preferences[CULINARY_FAVOURITE_FOOD]
